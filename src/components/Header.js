@@ -26,7 +26,7 @@ export const Header = () => {
   const cartItems = useSelector(store => store.cart.items); // This hook will help to use the store. It directly gives access to the store.
 
   return (
-    <div className='flex justify-between bg-pink-50 shadow-lg sm:bg-blue-50 md:bg-yellow-50 '>
+    <div className='flex justify-between shadow-lg bg-gradient-to-r from-yellow-100 to bg-green-200 '>
       <Logo />
       <div className='nav-items'>
         <ul className='flex py-10'>

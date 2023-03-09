@@ -30,7 +30,15 @@ const Body = () => {
   if (!allRestaurants) return null;
 
   return allRestaurants?.length === 0 ? (
-    <Shimmer />
+    <>
+      <div className='grid grid-flow-col p-5 m-5 border-spacing-5 border-gray-50'>
+        <Shimmer />
+        <Shimmer />
+        <Shimmer />
+        <Shimmer />
+        <Shimmer />
+      </div>
+    </>
   ) : (
     <>
       <div className='search-container p-5 bg-pink-50 my-2'>
