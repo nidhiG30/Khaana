@@ -17,7 +17,7 @@ import Cart from './components/Cart';
 const Instamart = lazy(() => import('./components/Instamart'));
 // Upon On Demand Loading  -> Upon Render -> Suspend Loading
 
-const About = lazy(() => import('./components/about'));
+const About = lazy(() => import('./components/About'));
 
 const AppLayout = () => {
   const [user, setUser] = useState({
